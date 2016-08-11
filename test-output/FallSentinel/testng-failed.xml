@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FallSentinel]">
+  <test name="BasicTests(failed)">
+    <classes>
+      <class name="test.java.FS_RAViewer_SC">
+        <methods>
+          <include name="test_risk_viewer_sc"/>
+        </methods>
+      </class> <!-- test.java.FS_RAViewer_SC -->
+      <class name="test.java.FS_RAViewer_CP_ASRC">
+        <methods>
+          <include name="test_risk_viewer_cp_asrc"/>
+        </methods>
+      </class> <!-- test.java.FS_RAViewer_CP_ASRC -->
+      <class name="test.java.FS_RAViewer_SP">
+        <methods>
+          <include name="test_risk_viewer_sp"/>
+          <include name="test_risk_viewer"/>
+        </methods>
+      </class> <!-- test.java.FS_RAViewer_SP -->
+      <class name="test.java.FS_RAViewer_CBP">
+        <methods>
+          <include name="test_risk_viewer_cbp"/>
+        </methods>
+      </class> <!-- test.java.FS_RAViewer_CBP -->
+      <class name="test.java.FS_RAViewer_HP">
+        <methods>
+          <include name="test_risk_viewer_hp"/>
+        </methods>
+      </class> <!-- test.java.FS_RAViewer_HP -->
+    </classes>
+  </test> <!-- BasicTests(failed) -->
+</suite> <!-- Failed suite [FallSentinel] -->

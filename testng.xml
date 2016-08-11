@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FallSentinel"  preserve-order="true" parallel="false">
+  <test name="BasicTests">
+    <classes>
+    <class name="edu.pitt.dbmi.FS_RAViewer_HP"/>  
+	<class name="edu.pitt.dbmi.FS_RAViewer_CBP"/>    
+	<class name="edu.pitt.dbmi.FS_RAViewer_CP"/>	
+	<class name="edu.pitt.dbmi.FS_RAViewer_SC"/>	
+	<class name="edu.pitt.dbmi.FS_RAViewer_SP"/>	
+	<class name="edu.pitt.dbmi.FS_RAViewer_CP_ASRC"/> 		
+	<class name="edu.pitt.dbmi.FS_RAViewer_10Pt"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
